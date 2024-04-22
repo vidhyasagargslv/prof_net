@@ -31,3 +31,68 @@ body {
     text-wrap: balance;
   }
 }
+
+.gradient_name{
+  text-align: center;
+font-family: Archivo;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.6px;
+background: linear-gradient(91deg, #F58033 60.85%, #6E1CD6 86.54%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.PrfNet{
+  /* animate from top */
+  animation: animate 1s ease-in-out;
+
+
+
+}
+@keyframes animate {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.Tagine{
+  animation: belowanimation 2s ease-in-out;
+}
+@keyframes belowanimation {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.Butn{
+  animation: loginanimation 5s ease-in-out;
+}
+
+@keyframes loginanimation {
+  0% {
+    
+    opacity: 0;
+  }
+  70%{
+    opacity: 0;
+  }
+  100% {
+    
+    opacity: 1;
+  }
+}

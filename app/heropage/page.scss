@@ -1,0 +1,27 @@
+
+.text-center span {
+    margin-bottom: 1em;
+  }
+
+.heading{
+    color: #000;
+text-align: center;
+font-family:  'redick', cursive;;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px; 
+letter-spacing: 1.08px;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    font-family:  monospace, cursive;;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 56px; 
+    letter-spacing: 1.08px;
+    display: none;
+}
