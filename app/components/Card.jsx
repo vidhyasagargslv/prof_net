@@ -14,14 +14,14 @@ function Card() {
   const [selectedDomain, setSelectedDomain] = useState('');
   const [showToast, setShowToast] = useState(false);
   
-  const Apiurl = process.env.NEXT_PUBLIC_API_URL;
+  
 
   
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(Apiurl);
+        const response = await fetch('https://vidhyasagargandi.pythonanywhere.com/Teachers/');
         const data = await response.json();
         setData(data);
       } catch (error) {
