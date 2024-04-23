@@ -10,7 +10,7 @@ import loginpage from '../loginpage/page'
 
 
 export default function heropage() {
-    const heroSectionRef = useRef(null)
+    
    
 
    
@@ -58,7 +58,7 @@ export default function heropage() {
 
       <div className="Desktop1 w-full h-full relative">
         <div className="Rectangle1 w-full h-[100vh] left-0 top-0 absolute bg-zinc-300 bg-opacity-10 backdrop-blur-[107.33px]" />
-        <div ref={heroSectionRef} className="HeroSection left-[273px] top-[150px] absolute flex-col justify-start items-center gap-[23px] inline-flex">
+        <div  className="HeroSection left-[273px] top-[150px] absolute flex-col justify-start items-center gap-[23px] inline-flex">
           <div className="Frame2 flex-col justify-start items-center gap-[32px] flex">
             <div className="Frame1 justify-center items-center gap-11 inline-flex">
               <div className="ProfNet text-purple-500 text-5xl font-extrabold font-['Archivo'] tracking-[2.88px] sm:text-8xl">PROF NET</div>
