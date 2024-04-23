@@ -1,15 +1,4 @@
-import React, { useState } from 'react';
-
-export default function Header({ setSearchTerm, setSelectedDomain }) {
-
-  
-
-
-
-  return (
-    <div className="flex flex-row items-start gap-[15rem] mx-10 pt-5 bg-black">
-        <div className="sidelogo" onClick={() => {setSearchTerm(''); setSelectedDomain('');}}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="44" viewBox="0 0 80 78" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 80 78" fill="none">
               <mask id="mask0_2_67" style={{maskType: 'luminance'}} maskUnits="userSpaceOnUse" x="0" y="0" width="80" height="78">
                   <path d="M79.6675 0.422485H0.332489V77.5775H79.6675V0.422485Z" fill="white"/>
               </mask>
@@ -66,34 +55,4 @@ export default function Header({ setSearchTerm, setSelectedDomain }) {
                           </linearGradient>
                         </defs>
         </svg>
-        </div>
-
-        <div className='flex justify-center items-center mb-5'>
-      <div className="ClickOn flex flex-row">
-        <span className="copyline text-indigo-700 text-4xl  tracking-wide">Click    </span>
-        <span className='mt-[10px] mx-4'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <g clipPath="url(#clip0_15_432)">
-        <path d="M21.5551 16.3894C22.6182 15.9604 22.5894 14.5907 21.6123 13.9911C18.9513 12.358 15.9323 11.2949 12.77 11.1145C11.8269 11.0607 11.0598 11.8304 11.1167 12.7734C11.3079 15.9394 12.3824 18.9589 14.0278 21.6173C14.6316 22.5929 16.0025 22.6153 16.4246 21.5486C16.9581 20.2003 17.1122 18.6967 17.2191 17.2176C18.7015 17.0982 20.2072 16.9334 21.5551 16.3894Z" fill="#D7E0FF"/>
-        <path d="M21.5551 16.3894C22.6182 15.9604 22.5894 14.5907 21.6123 13.9911C18.9513 12.358 15.9323 11.2949 12.77 11.1145C11.8269 11.0607 11.0598 11.8304 11.1167 12.7734C11.3079 15.9394 12.3824 18.9589 14.0278 21.6173C14.6316 22.5929 16.0025 22.6153 16.4246 21.5486C16.9581 20.2003 17.1122 18.6967 17.2191 17.2176C18.7015 17.0982 20.2072 16.9334 21.5551 16.3894Z" stroke="#4147D5" strokeWidth="1.71" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M19.037 8.34374C18.3277 4.03529 15.3035 1.65088 10.4247 1.65088C4.80962 1.65088 1.65112 4.80937 1.65112 10.4245C1.65112 15.3246 4.05648 18.3539 8.40074 19.0459" stroke="#4147D5" strokeWidth="1.71" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M13.3936 7.15916C12.6827 6.53466 11.6815 6.20535 10.4243 6.20535C7.72415 6.20535 6.20532 7.72419 6.20532 10.4243C6.20532 11.8833 6.64873 12.9973 7.48232 13.7133" stroke="#4147D5" strokeWidth="1.71" strokeLinecap="round" strokeLinejoin="round"/>
-          </g>
-        <defs>
-    <clipPath id="clip0_15_432">
-      <rect width="24" height="24" fill="white"/>
-    </clipPath>
-  </defs>
-</svg>
-        </span>
-        <span className="copyline text-white text-4xl tracking-wide">   on the detail to copy from any card </span>
-        </div>
-      </div>
-
         
-
-
-        
-    </div>
-  )
-}

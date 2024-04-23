@@ -56,7 +56,7 @@ export default function heropage() {
         <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
 
-      <div className="Desktop1 w-full h-full relative bg-stone-900">
+      <div className="Desktop1 w-full h-full relative">
         <div className="Rectangle1 w-full h-[100vh] left-0 top-0 absolute bg-zinc-300 bg-opacity-10 backdrop-blur-[107.33px]" />
         <div ref={heroSectionRef} className="HeroSection left-[273px] top-[150px] absolute flex-col justify-start items-center gap-[23px] inline-flex">
           <div className="Frame2 flex-col justify-start items-center gap-[32px] flex">
