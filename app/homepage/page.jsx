@@ -16,7 +16,7 @@ function homepage() {
       <Head>
       <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&display=swap" rel="stylesheet"/>
 
-
+      
       </Head>
       
       
