@@ -143,8 +143,8 @@ export default function heropage() {
 
           </div>
         </div>
-        <div className="Ellipse1 w-[200px] h-[250px] left-[70px] top-[84px] absolute opacity-80 bg-orange-300 rounded-full blur-[80px]" />
-        <div className="Ellipse2 w-[200px] h-[200px] left-[1046px] top-[59px] absolute bg-blue-400 rounded-full blur-[80px]" />
+        <div className="Ellipse1 w-[200px] h-[250px] left-[70px] top-[84px] absolute opacity-80 bg-orange-300 rounded-full blur-[100px]" />
+        <div className="Ellipse2 w-[200px] h-[200px] left-[1046px] top-[59px] absolute bg-blue-400 rounded-full blur-[100px]" />
         <div className="Ellipse4 w-[200px] h-[200px] left-[1043px] top-[572px] absolute bg-green-400 bg-opacity-50 rounded-full blur-[80px]" />
         <div className="Ellipse3 w-[200px] h-[200px] left-[158px] top-[484px] absolute bg-fuchsia-400 bg-opacity-50 rounded-full blur-[80px]" />
       </div>
