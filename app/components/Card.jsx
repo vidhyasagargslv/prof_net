@@ -185,7 +185,7 @@ function Card() {
             >
               <div className="flex flex-col ">
                 <Image
-                  src={"/profile.PNG"}
+                  src={"/profile.png"}
                   className="shrink-0 self-start rounded-full aspect-[1.01] w-auto h-auto"
                   width={90}
                   height={70}
