@@ -5,7 +5,7 @@ import Head from "next/head";
 import "../heropage/page.scss"
 import Link from "next/link";
 
-function loginpage() {
+function Loginpage() {
     const [registrationNumber, setRegistrationNumber] = React.useState("");
 
   const handleRegistrationNumberChange = (event) => {
@@ -60,4 +60,4 @@ function loginpage() {
   )
 }
 
-export default loginpage
+export default Loginpage

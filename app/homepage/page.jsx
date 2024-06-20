@@ -5,7 +5,7 @@ import Card from '../components/Card'
 import Head from 'next/head'
 import '../heropage/page.scss'
 
-function homepage() {
+function Homepage() {
     
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDomain, setSelectedDomain] = useState('');
@@ -30,4 +30,4 @@ function homepage() {
   )
 }
 
-export default homepage
+export default Homepage
