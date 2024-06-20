@@ -1,16 +1,9 @@
-import HeroPage from './heropage/page'
-
+import HeroPage from "./heropage/page";
 
 export default function Home() {
-
-  
-    
-
-    return (
-      <div className='bg-black'>
-      
-        < HeroPage/>
-      
-      </div>
-    );
-  }
+  return (
+    <div className="bg-black">
+      <HeroPage />
+    </div>
+  );
+}

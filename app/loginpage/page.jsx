@@ -12,8 +12,6 @@ function Loginpage() {
     setRegistrationNumber(event.target.value);
   };
 
-  
-
   const handleVerifyClick = () => {
     if (registrationNumber.length === 8 && registrationNumber.startsWith("12")) {
       console.log("clicked");

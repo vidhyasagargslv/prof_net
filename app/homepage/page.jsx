@@ -1,33 +1,31 @@
-'use client'
-import React, {useState} from 'react'
-import Header from '../components/Header'
-import Card from '../components/Card'
-import Head from 'next/head'
-import '../heropage/page.scss'
+"use client";
+import React, { useState } from "react";
+import Header from "../components/Header";
+import Card from "../components/Card";
+import Head from "next/head";
+import "../heropage/page.scss";
 
 function Homepage() {
-    
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedDomain, setSelectedDomain] = useState('');
-  
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedDomain, setSelectedDomain] = useState("");
+
   return (
-    <div className='bg-black'>
-
+    <div className="bg-black">
       <Head>
-      <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&display=swap" rel="stylesheet"/>
-
-      
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      
-      
-      <Header setSearchTerm={setSearchTerm} setSelectedDomain={setSelectedDomain} />
-      
-      <Card  searchTerm={searchTerm} selectedDomain={selectedDomain} />
-      
-      
 
+      <Header
+        setSearchTerm={setSearchTerm}
+        setSelectedDomain={setSelectedDomain}
+      />
+
+      <Card searchTerm={searchTerm} selectedDomain={selectedDomain} />
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;
