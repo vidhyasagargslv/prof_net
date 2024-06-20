@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
-import Header from './Header';
+
 
 
 
@@ -64,7 +64,7 @@ function Card() {
         onClick={() => {
           setSearchTerm(''); // reset the search term
           setSelectedDomain(''); // reset the selected domain
-          
+          99
         }}
         >All</div>
     <div className="dropdown ">

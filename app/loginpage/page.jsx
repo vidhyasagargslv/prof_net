@@ -1,11 +1,8 @@
 "use client"
 import * as React from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
-import homepage from '../homepage/page'
 import Head from "next/head";
 import "../heropage/page.scss"
-import Router from "next/router";
 import Link from "next/link";
 
 function loginpage() {

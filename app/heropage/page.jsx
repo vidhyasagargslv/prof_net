@@ -1,15 +1,15 @@
 "use client"
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect } from 'react'
 import { gsap } from 'gsap'
 import Head from 'next/head'
 import './page.scss'
 import Link from 'next/link'
-import loginpage from '../loginpage/page'
 
 
 
 
-export default function heropage() {
+
+export default function Heropage() {
     
    
 
@@ -126,10 +126,10 @@ export default function heropage() {
               
               </div>
             </div>
-            <div className="Tagline p-2.5 justify-center items-center gap-2.5 inline-flex">
+            <div className="Tagline p-2.5 justify-center items-center gap-5 flex flex-col">
             <div className="text-center ">
-                <span className="text-white text-sm font-bold font-['Archivo'] tracking-[2.60px] sm:text-[52px] mb-4">Lovely professional University one<br/>stop platform for </span>
-                <span className="gradient_name mb-4">professor<br/></span>
+                <span className="text-white text-sm font-bold font-['Archivo'] tracking-[2.60px] sm:text-[52px]">Lovely professional University one<br/>stop platform for </span>
+                <span className="gradient_name ">professor<br/></span>
                 <span className="text-white text-[52px] font-bold font-['Archivo'] tracking-[2.60px]">insight</span>
             </div>
             </div>
